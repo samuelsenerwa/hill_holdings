@@ -6,7 +6,7 @@ import service02 from '../assets/image3.jpg';
 import service03 from '../assets/images4.jpg';
 import service04 from '../assets/images5.jpg';
 import service05 from '../assets/images6.jpg';
-import service06 from '../assets/images7.jpg';
+import service06 from '../assets/image7.jpg';
 import logo1 from '../assets/logo1.png';
 import logo2 from '../assets/logo2.png';
 import logo3 from '../assets/logo3.png';
