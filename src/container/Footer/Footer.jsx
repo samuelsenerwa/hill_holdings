@@ -21,7 +21,7 @@ const Footer = () => (
 
       <div className='app__footer-links_logo'>
           <p className='headtext__cormorant logo_text'> Hill Holding Construction Limited </p>
-          <p className='p__opensans'>&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
+          <p className='p__opensans'>&quot;We Believe in and Promote Quality Delivery&quot;</p>
           <div className='app__footer-links_icons'>
             {/* <FiFacebook/>
             <FiTwitter/>
