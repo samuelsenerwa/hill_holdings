@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {FooterOverlay, Newsletter} from '../../components';
-// import {FiFacebook, FiTwitter, FiInstagram} from 'react-icons/fi';
+import {FiFacebook, FiTwitter, FiInstagram, FiMail} from 'react-icons/fi';
 
 import { images } from '../../constants';
 import './Footer.css';
@@ -15,18 +15,20 @@ const Footer = () => (
       <div className='app__footer-links_contact'>
           <h1 className='app__footer-headtext'>Contact Us</h1>
           <p className='p__opensans' >Hill School Building, 213-50100 KAKAMEGA</p>
-          <p className='p__opensans'>+1 212-344-1230</p>
-          <p className='p__opensans'>+1 212-555-1230</p>
+          <p className='p__opensans'>+254 725532384</p>
+          <p style={{color:'#fff', fontSize:'1.2rem'}}> hillholdingsconstruction@gmail.com</p>
       </div>
 
       <div className='app__footer-links_logo'>
           <p className='headtext__cormorant logo_text'> Hill Holding Construction Limited </p>
           <p className='p__opensans'>&quot;We Believe in and Promote Quality Delivery&quot;</p>
           <div className='app__footer-links_icons'>
-            {/* <FiFacebook/>
+            <FiFacebook/>
             <FiTwitter/>
-            <FiInstagram/> */}
+            <FiInstagram/>
+            <FiMail/>
           </div>
+          <p className='p__opensans'>@ hillholdingsconstruction</p>
       </div>
 
       <div className='app__footer-links_work'>
