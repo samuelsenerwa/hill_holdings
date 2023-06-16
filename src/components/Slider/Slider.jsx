@@ -7,7 +7,7 @@ import './Slider.css';
 
 const Slider = () => (
       <div className="carousel-wrapper">
-            <Carousel showThumbs={false} autoPlay showStatus={false}>
+            <Carousel showThumbs={false} autoPlay infiniteLoop={true} showStatus={false}>
           <div>
             <img src={images.machinery2} alt="Welcome image" />
             <div className="carousel-text">
