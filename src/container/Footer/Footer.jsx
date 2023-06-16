@@ -16,7 +16,7 @@ const Footer = () => (
           <h1 className='app__footer-headtext'>Contact Us</h1>
           <p className='p__opensans' >Hill School Building, 213-50100 KAKAMEGA</p>
           <p className='p__opensans'>+254 725532384</p>
-          <p style={{color:'#fff', fontSize:'1.2rem'}}> hillholdingsconstruction@gmail.com</p>
+          <p style={{color:'#fff', fontSize:'1.2rem'}}> hillholdingsltd@gmail.com</p>
       </div>
 
       <div className='app__footer-links_logo'>
@@ -28,7 +28,7 @@ const Footer = () => (
             <FiInstagram/>
             <FiMail/>
           </div>
-          <p className='p__opensans'>@ hillholdingsconstruction</p>
+          <p className='p__opensans'>@ hillholdingsltd</p>
       </div>
 
       <div className='app__footer-links_work'>

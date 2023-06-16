@@ -9,21 +9,23 @@
 }
 
 .app__navbar-logo {
-    padding: 2rem 4rem;
     display: flex;
-    flex: 1;
-    width: 100%;
+    justify-content: flex-start;
+    padding: 0.4rem 0.8rem;
 }
 
 .app__navbar-logo img{
-    width:100px;
-    height: 100px;
+    margin:1rem 0.8rem;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
-    outline: 2px solid var(--color-golden);
+    border:2px solid var(--color-golden);
+    
 }
 
 .app__navbar-logo p {
     margin-left: 1rem;
+    justify-content: center;
 }
 
 .app__navbar-logo .app__navbar__logo {
@@ -106,7 +108,7 @@
 
 @media screen and (min-width: 2560px) {
     .app__navbar {
-        height: 170px;
+        height: 110px;
         padding: 2rem 4rem;
     }
 
@@ -121,7 +123,7 @@
     .app__navbar-logo img {
         position: absolute;
         top: 20px;
-        left: 30px;
+        left: 6%;
     }
 }
 
@@ -130,41 +132,13 @@
         display: none;
     }
 
-    .app__navbar-logo {
-        padding: 2rem 4rem;
-        display: flex;
-        flex: 1;
-        width: 100%;
-    }
-
     .app__navbar-smallscreen {
         display: flex;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .app__navbar {
-        width: 100%;
-        padding: 1rem;
-    }
-    .app__navbar-logo {
-        display: flex;
-        flex-direction: row;
-        flex: 1;
-        padding: 2rem 3rem;
-    }
-
-    .app__navbar-logo img {
-        position: absolute;
-        top:24px;
-        left: 5px;
-        width: 65px;
-        height: 65px;
-    }
-
-    .app__navbar-logo p{
-       font-size: 1.2rem;
-    }
+    
 }
 
     
