@@ -25,7 +25,7 @@ const Clients = () => (
             </div>
         </div>
         <div className="app__wrapper_img">
-            <img src= {images.service06} alt="service"/>
+            <img src= {images.construction} alt="service"/>
         </div>
     </div>
 );

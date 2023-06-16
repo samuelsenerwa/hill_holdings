@@ -13,6 +13,7 @@ const  Navbar = () => {
   return (
     <nav className='app__navbar'>
         <div className='app__navbar-logo'>
+            <img src={images.logo} />
             <p className='app__navbar__logo p__cormorant'> Hill Holdings Construction</p>
             </div>
         <ul className='app__navbar-links'>

@@ -7,7 +7,7 @@ import './Services.css';
 const Services = () => (
     <div className="app__wrapper section__padding" id="services">
         <div className="app__wrapper_img app__wrapper_img-reverse">
-            <img src={images.service04} alt="service_image"/>
+            <img src={images.machinery4} alt="service_image"/>
         </div>
 
         <div className="app__wrapper_info">

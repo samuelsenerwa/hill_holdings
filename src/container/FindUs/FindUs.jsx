@@ -18,7 +18,7 @@ const FindUs = () => (
       </div>
 
       <div className='app__wrapper_img'>
-          <img src={images.welcome} alt='find us'/>
+          <img src={images.office} alt='find us'/>
       </div>
     </div>
 );

@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { AboutUs, Header, Services, Footer, Clients, FindUs } from './container';
-import { Navbar } from './components';
+import { Navbar, Slider } from './components';
 
 import './App.css';
 
