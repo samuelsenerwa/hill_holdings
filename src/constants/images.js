@@ -13,6 +13,18 @@ import logo3 from '../assets/logo3.png';
 import logo4 from '../assets/logo4.png';
 import logo5 from '../assets/logo5.png';
 import quote from '../assets/quote.png';
+import site from '../assets/site.jpg';
+import machinery1 from '../assets/machinery1.jpg';
+import machinery2 from '../assets/machinery2.jpg';
+import machinery3 from '../assets/machinery3.jpg';
+import logo from '../assets/hill logo.jpeg';
+import road from '../assets/road1.jpg';
+import road1 from '../assets/road2.jpg';
+import mixer from '../assets/mixer.jpg';
+import machinery4 from '../assets/machinery4.jpg';
+import office from '../assets/office.jpg';
+import construction from '../assets/construction.jpg';
+
 
 export default {
     bg,
@@ -29,5 +41,16 @@ export default {
     logo3,
     logo4,
     logo5,
-    quote
+    quote,
+    site,
+    machinery1,
+    machinery2,
+    machinery3,
+    logo,
+    road,
+    road1,
+    office,
+    mixer,
+    machinery4,
+    construction
 };
