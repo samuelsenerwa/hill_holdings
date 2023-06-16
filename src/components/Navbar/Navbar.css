@@ -123,7 +123,7 @@
     .app__navbar-logo img {
         position: absolute;
         top: 20px;
-        left: 6%;
+        left: 3%;
     }
 }
 
@@ -138,7 +138,22 @@
 }
 
 @media screen and (max-width: 650px) {
-    
+    .app__navbar {
+        display: flex;
+        justify-content: flex-start;
+        flex: 1;
+    }
+
+    .app__navbar-logo img {
+        height: 55px;
+        width: 55px;
+        margin: 1rem 0.2rem;
+       justify-self: center;
+    }
+
+    .app__navbar-logo p {
+        font-size: 0.9rem;
+    }
 }
 
     
