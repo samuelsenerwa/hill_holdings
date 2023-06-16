@@ -7,7 +7,7 @@ import './Gallery.css';
 
 const Gallery = () => {
 
-  const galleryImages = [images.road, images.road1, images.site, images.machinery3]
+  const galleryImages = [images.construction, images.road1, images.site, images.machinery3]
 
   const scrollRef = React.useRef(null);
 
@@ -24,7 +24,6 @@ const Gallery = () => {
   return (
   <div className="app__gallery flex__center">
     <div className="app__gallery-content">
-      <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Our Capacity</h1>
         <p className="p__opensans" style={{ color: '#AAA', marginTop: '2rem'}}>consists of top of the range equipment and machinery, including Earth movers and Transport Equipment, Reinforced Concrete Equipment, and Light weight Machinery</p>        <button type="button" className="custom__button">View More</button>
     </div>

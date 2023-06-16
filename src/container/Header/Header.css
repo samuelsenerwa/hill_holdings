@@ -26,6 +26,9 @@
 }
 
 @media screen and (max-width: 650px) {
+    .carousel-container {
+        max-height:30vh ;
+    }
  .app__header-h1 {
         line-height: 1.1;
         font-size: 2.5rem;
