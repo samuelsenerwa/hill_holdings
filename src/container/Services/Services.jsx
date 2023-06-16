@@ -3,9 +3,11 @@ import React from "react";
 import { images } from "../../constants";
 import { SubHeading } from "../../components";
 import './Services.css';
+import Gallery from "../Gallery/Gallery";
 
 const Services = () => (
-    <div className="app__wrapper section__padding" id="services">
+    <>
+    <div className="app__bg app__wrapper section__padding" id="services">
         <div className="app__wrapper_img app__wrapper_img-reverse">
             <img src={images.machinery4} alt="service_image"/>
         </div>
@@ -16,13 +18,13 @@ const Services = () => (
 
             <div className="app__service-content">
                 <div className="app__service-content_quote">
-                    <p className="p__opensans" style={{color:'#000'}}>Building Construction
+                    <p className="p__opensans" style={{color:'#fff'}}>Building Construction
 We also pride ourselves of vast experience in the building
 industry where we have constructed both high-rise and
 low-rise residential buildings, commercial buildings and also
 institutional buildings.</p>
                 </div>
-                <p className="p__opensans" style={{color:'#000'}}>Construction Project
+                <p className="p__opensans" style={{color:'#fff'}}>Construction Project
 Management
 Hill Holdings Construction Limited also offers a wide range
 of project management services which i nclude but not
@@ -32,7 +34,8 @@ site inspections.</p>
             </div>
         </div>
     </div>
-
+    <Gallery/>
+</>
 
 );
 
